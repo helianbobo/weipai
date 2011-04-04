@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">微拍</string>
+
+    <string name="back">返回</string>
+    <string name="accountsetting">帐号设置</string>
+    <string name="share">分享</string>
+
+    <string name="home_btn_updates">更新</string>
+    <string name="home_btn_friends">好友</string>
+    <string name="home_btn_recording">拍摄</string>
+    <string name="home_btn_setting">设置</string>
+</resources>

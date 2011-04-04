@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabHost android:id="@android:id/tabhost" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@android:id/tabcontent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+
+        <TabWidget android:id="@android:id/tabs"
+                   android:visibility="gone"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:background="@color/white"
+
+                />
+
+        <RadioGroup android:gravity="center_vertical"
+                    android:layout_gravity="top"
+                    android:background="@drawable/bottombg"
+                    android:orientation="horizontal"
+                    android:id="@+id/main_radio"
+                    android:layout_width="fill_parent"
+                    android:layout_height="68dp">
+            <RadioButton android:tag="radio_button0" android:layout_marginTop="2.0dip" android:text="@string/home_btn_updates" android:drawableTop="@drawable/history" style="@style/main_tab_bottom"/>
+            <RadioButton android:tag="radio_button1" android:layout_marginTop="2.0dip" android:text="@string/home_btn_friends" android:drawableTop="@drawable/friends" style="@style/main_tab_bottom"/>
+            <RadioButton android:tag="radio_button2" android:layout_marginTop="2.0dip" android:text="@string/home_btn_recording" android:drawableTop="@drawable/record" style="@style/main_tab_bottom"/>
+            <RadioButton android:tag="radio_button3" android:layout_marginTop="2.0dip" android:text="@string/home_btn_setting" android:drawableTop="@drawable/settings" style="@style/main_tab_bottom"/>
+        </RadioGroup>
+    </LinearLayout>
+</TabHost>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">weipai</string>
+    <string name="details_ok">OK</string>
+
+    <string name="camera_error_title">Camera error</string>
+    <string name="cannot_connect_camera">Cannot connect to camera.</string>
+
+    <string name="video_file_name_format" translatable="false">"'VID'_yyyyMMdd_HHmmss"</string>
+    <string name="video_reach_size_limit">Size limit reached.</string>
+
+    <string name="back">Back</string>
+    <string name="accountsetting">Account Setting</string>
+    <string name="share">Share</string>
+
+    <string name="home_btn_updates">Updates</string>
+    <string name="home_btn_friends">Friends</string>
+    <string name="home_btn_recording">Recording</string>
+    <string name="home_btn_setting">Setting</string>
+</resources>

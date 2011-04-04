@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.weipai"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <application android:label="weipai" android:icon="@drawable/icon" android:debuggable="true">
+        <activity android:name="CoverActivity" android:screenOrientation="portrait"
+                  android:label="@string/app_name" android:theme="@style/ContentOverlay">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+
+        </activity>
+        <activity android:name=".RecordingActivity"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/ContentOverlay"/>
+        <activity android:name=".ShareActivity"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/ContentOverlay"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".BrowseActivity"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/ContentOverlay"
+                  android:label="@string/app_name">
+
+        </activity>
+        <activity android:name=".WeipaiTabActivity"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/ContentOverlay">
+
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+</manifest> 
