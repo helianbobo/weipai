@@ -28,7 +28,7 @@ public class ShareActivity extends Activity {
                 Intent viewMediaIntent = new Intent();
                 viewMediaIntent.setAction(android.content.Intent.ACTION_VIEW);
 
-                File path = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_MOVIES);
+                File path = Environment.getExternalStorageDirectory();
 
                 File file = new File(path, "weipai" + ".mp4");
 

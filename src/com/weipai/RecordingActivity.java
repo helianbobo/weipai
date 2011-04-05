@@ -214,7 +214,7 @@ public class RecordingActivity extends Activity implements SurfaceHolder.Callbac
 
 //        recorder.setProfile(CamcorderProfile.get(CamcorderProfile.QUALITY_LOW));
 
-        File path = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_MOVIES);
+        File path = Environment.getExternalStorageDirectory();
 
         File file = new File(path, "weipai"+".mp4");
 
@@ -223,8 +223,8 @@ public class RecordingActivity extends Activity implements SurfaceHolder.Callbac
         recorder.setMaxFileSize(2000000);
         recorder.setOnErrorListener(this);
         recorder.setOnInfoListener(this);
-
-        recorder.setOrientationHint(90);
+        //for 2.3
+        //recorder.setOrientationHint(90);
 
         /*ContentValues values = new ContentValues(3);
        values.put(MediaStore.MediaColumns.TITLE, "Test Android Video");
