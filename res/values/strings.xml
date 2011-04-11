@@ -12,6 +12,7 @@
     <string name="back">Back</string>
     <string name="accountsetting">Account Setting</string>
     <string name="share">Share</string>
+    <string name="updates">Updates</string>
 
     <string name="home_btn_updates">Updates</string>
     <string name="home_btn_friends">Friends</string>
