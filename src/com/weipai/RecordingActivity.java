@@ -54,16 +54,15 @@ public class RecordingActivity extends Activity implements SurfaceHolder.Callbac
             public void onClick(View view) {
                 controlRecoring();
                 if (recording) {
-                    recordControlButton.setText("Stop");
-
+                    recordControlButton.setBackgroundResource(R.drawable.record);
                 } else {
-                    recordControlButton.setText("Start Recording");
+                    recordControlButton.setBackgroundResource(R.drawable.start);
                     gotoDetailActivity();
                 }
             }
         });
 
-//        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
     }
 
     private void gotoDetailActivity(){
@@ -166,7 +165,7 @@ public class RecordingActivity extends Activity implements SurfaceHolder.Callbac
             camera.stopPreview();
             mPreviewing = false;
         }
-        camera.setDisplayOrientation(90);
+//        camera.setDisplayOrientation(90);
         setCameraParameters();
         setPreviewDisplay(holder);
 

@@ -43,7 +43,7 @@ containing a value of this type.
         public static final int bottom_tab_font_size=0x7f050000;
     }
     public static final class drawable {
-        public static final int black=0x7f02002c;
+        public static final int black=0x7f02002d;
         public static final int bottombg=0x7f020000;
         public static final int btn_return=0x7f020001;
         public static final int cd_1=0x7f020002;
@@ -60,12 +60,12 @@ containing a value of this type.
         public static final int home_btn_bg_n=0x7f02000d;
         public static final int home_btn_bg_s=0x7f02000e;
         public static final int icon=0x7f02000f;
-        public static final int list_background=0x7f020030;
+        public static final int list_background=0x7f020031;
         public static final int loading=0x7f020010;
         public static final int login=0x7f020011;
         public static final int lowerround=0x7f020012;
-        public static final int ltgray=0x7f02002a;
-        public static final int ltyellow=0x7f02002b;
+        public static final int ltgray=0x7f02002b;
+        public static final int ltyellow=0x7f02002c;
         public static final int next=0x7f020013;
         public static final int play=0x7f020014;
         public static final int preview=0x7f020015;
@@ -79,19 +79,20 @@ containing a value of this type.
         public static final int share=0x7f02001d;
         public static final int sina=0x7f02001e;
         public static final int sinaweibo_login=0x7f02001f;
-        public static final int tencent=0x7f020020;
-        public static final int tencent_account=0x7f020021;
-        public static final int tencent_icon_big=0x7f020022;
-        public static final int tencent_icon_small=0x7f020023;
-        public static final int topbg=0x7f020024;
-        public static final int transparent=0x7f02002d;
-        public static final int transparent_background=0x7f02002f;
-        public static final int upperround=0x7f020025;
-        public static final int weibo_icon_big=0x7f020026;
-        public static final int weibo_icon_small=0x7f020027;
-        public static final int weipai=0x7f020028;
-        public static final int widget_edit_block_bg_normal=0x7f02002e;
-        public static final int zhen=0x7f020029;
+        public static final int start=0x7f020020;
+        public static final int tencent=0x7f020021;
+        public static final int tencent_account=0x7f020022;
+        public static final int tencent_icon_big=0x7f020023;
+        public static final int tencent_icon_small=0x7f020024;
+        public static final int topbg=0x7f020025;
+        public static final int transparent=0x7f02002e;
+        public static final int transparent_background=0x7f020030;
+        public static final int upperround=0x7f020026;
+        public static final int weibo_icon_big=0x7f020027;
+        public static final int weibo_icon_small=0x7f020028;
+        public static final int weipai=0x7f020029;
+        public static final int widget_edit_block_bg_normal=0x7f02002f;
+        public static final int zhen=0x7f02002a;
     }
     public static final class id {
         public static final int camaraPreview=0x7f08000c;
@@ -153,6 +154,7 @@ containing a value of this type.
         public static final int ContentOverlay=0x7f070002;
         public static final int main_tab_bottom=0x7f070000;
         public static final int main_tab_bottom_empty=0x7f070001;
+        public static final int notitle=0x7f070003;
     }
     public static final class styleable {
         /** Attributes that can be used with a topbar.
