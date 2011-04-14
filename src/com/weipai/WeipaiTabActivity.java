@@ -38,7 +38,7 @@ public class WeipaiTabActivity extends TabActivity implements CompoundButton.OnC
                 mTabHost.setCurrentTabByTag("friends_tab");
             }else if(buttonView == mRadioButtons[2]){
                 mTabHost.setCurrentTabByTag("recording_tab");
-            }else if(buttonView == mRadioButtons[3]){
+            }else if(buttonView == mRadioButtons[4]){
                 mTabHost.setCurrentTabByTag("setting_tab");
             }
         }
@@ -46,7 +46,7 @@ public class WeipaiTabActivity extends TabActivity implements CompoundButton.OnC
 
     private void initRadios() {
         RadioGroup localRadioGroup = (RadioGroup) findViewById(R.id.main_radio);
-        RadioButton[] arrayOfRadioButton1 = new RadioButton[4];
+        RadioButton[] arrayOfRadioButton1 = new RadioButton[5];
         this.mRadioButtons = arrayOfRadioButton1;
 
         for (int i = 0; i < arrayOfRadioButton1.length; i++) {
