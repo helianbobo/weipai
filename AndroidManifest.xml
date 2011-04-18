@@ -32,6 +32,10 @@
                   android:theme="@style/ContentOverlay">
 
         </activity>
+        <activity android:name=".SettingActivity"/>
+        <activity android:name=".FriendActivity"/>
+        <activity android:name=".CommentActivity"/>
+        <activity android:name=".LocationActivity"/>
     </application>
     <uses-permission android:name="android.permission.CAMERA"/>
     <uses-permission android:name="android.permission.RECORD_AUDIO"/>

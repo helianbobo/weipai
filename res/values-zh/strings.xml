@@ -11,4 +11,6 @@
     <string name="home_btn_friends">好友</string>
     <string name="home_btn_recording">拍摄</string>
     <string name="home_btn_setting">设置</string>
+
+    <string name="text_tellusmore">微拍会支持越来越多的开放平台认证。请告诉我们你需要哪些。</string>
 </resources>

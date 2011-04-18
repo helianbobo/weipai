@@ -16,10 +16,7 @@
                     android:layout_width="wrap_content" android:minWidth="40dip"
                     android:layout_height="wrap_content" android:layout_gravity="left"/>
         </LinearLayout>
-        <TextView android:id="@+id/topBarTitle" android:textColor="#FFFFFF"
-                  android:textSize="22dip" android:text="@string/updates"
-                  android:layout_width="123dip" android:layout_height="wrap_content"
-                  android:gravity="center"/>
+        <TextView android:id="@+id/topBarTitle" style="@style/topbartext" android:text="@string/updates"/>
         <LinearLayout android:layout_width="95dip" android:layout_height="wrap_content" android:gravity="right">
             <ImageButton android:id="@+id/rightButton" android:src="@drawable/refresh"  android:background="@null"
                     android:layout_width="wrap_content"  android:minWidth="40dip"

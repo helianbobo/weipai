@@ -18,4 +18,6 @@
     <string name="home_btn_friends">Friends</string>
     <string name="home_btn_recording">Recording</string>
     <string name="home_btn_setting">Setting</string>
+
+    <string name="text_tellusmore">Tell us more!</string>
 </resources>

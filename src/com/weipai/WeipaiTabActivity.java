@@ -22,9 +22,9 @@ public class WeipaiTabActivity extends TabActivity implements CompoundButton.OnC
 
         mTabHost = getTabHost();
         mTabHost.addTab(mTabHost.newTabSpec("updates_tab").setIndicator("Updates").setContent(new Intent(this, BrowseActivity.class)));
-        mTabHost.addTab(mTabHost.newTabSpec("friends_tab").setIndicator("Friends").setContent(new Intent(this, BrowseActivity.class)));
+        mTabHost.addTab(mTabHost.newTabSpec("friends_tab").setIndicator("Friends").setContent(new Intent(this, FriendActivity.class)));
 //        mTabHost.addTab(mTabHost.newTabSpec("recording_tab").setIndicator("Recording").setContent(new Intent(this, RecordingActivity.class)));
-        mTabHost.addTab(mTabHost.newTabSpec("setting_tab").setIndicator("Setting").setContent(new Intent(this, BrowseActivity.class)));
+        mTabHost.addTab(mTabHost.newTabSpec("setting_tab").setIndicator("Setting").setContent(new Intent(this, SettingActivity.class)));
         initRadios();
     }
 

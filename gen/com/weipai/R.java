@@ -37,62 +37,66 @@ containing a value of this type.
     public static final class color {
         public static final int black=0x7f040001;
         public static final int gray=0x7f040002;
+        public static final int grayblue=0x7f040003;
+        public static final int red=0x7f040004;
         public static final int white=0x7f040000;
     }
     public static final class dimen {
         public static final int bottom_tab_font_size=0x7f050000;
     }
     public static final class drawable {
-        public static final int black=0x7f02002d;
+        public static final int black=0x7f02002f;
         public static final int bottombg=0x7f020000;
         public static final int btn_return=0x7f020001;
-        public static final int cd_1=0x7f020002;
-        public static final int cd_2=0x7f020003;
-        public static final int cd_3=0x7f020004;
-        public static final int checkin=0x7f020005;
-        public static final int cover=0x7f020006;
-        public static final int friends=0x7f020007;
-        public static final int friends_small=0x7f020008;
-        public static final int history=0x7f020009;
-        public static final int history_small=0x7f02000a;
-        public static final int home_btn_bg=0x7f02000b;
-        public static final int home_btn_bg_d=0x7f02000c;
-        public static final int home_btn_bg_n=0x7f02000d;
-        public static final int home_btn_bg_s=0x7f02000e;
-        public static final int icon=0x7f02000f;
-        public static final int list_background=0x7f020031;
-        public static final int loading=0x7f020010;
-        public static final int login=0x7f020011;
-        public static final int lowerround=0x7f020012;
-        public static final int ltgray=0x7f02002b;
-        public static final int ltyellow=0x7f02002c;
-        public static final int next=0x7f020013;
-        public static final int play=0x7f020014;
-        public static final int preview=0x7f020015;
-        public static final int record=0x7f020016;
-        public static final int recording_logo=0x7f020017;
-        public static final int refresh=0x7f020018;
-        public static final int round=0x7f020019;
-        public static final int self=0x7f02001a;
-        public static final int settings=0x7f02001b;
-        public static final int settings_small=0x7f02001c;
-        public static final int share=0x7f02001d;
-        public static final int sina=0x7f02001e;
-        public static final int sinaweibo_login=0x7f02001f;
-        public static final int start=0x7f020020;
-        public static final int tencent=0x7f020021;
-        public static final int tencent_account=0x7f020022;
-        public static final int tencent_icon_big=0x7f020023;
-        public static final int tencent_icon_small=0x7f020024;
-        public static final int topbg=0x7f020025;
-        public static final int transparent=0x7f02002e;
-        public static final int transparent_background=0x7f020030;
-        public static final int upperround=0x7f020026;
-        public static final int weibo_icon_big=0x7f020027;
-        public static final int weibo_icon_small=0x7f020028;
-        public static final int weipai=0x7f020029;
-        public static final int widget_edit_block_bg_normal=0x7f02002f;
-        public static final int zhen=0x7f02002a;
+        public static final int button_half=0x7f020002;
+        public static final int cd_1=0x7f020003;
+        public static final int cd_2=0x7f020004;
+        public static final int cd_3=0x7f020005;
+        public static final int checkin=0x7f020006;
+        public static final int cover=0x7f020007;
+        public static final int friends=0x7f020008;
+        public static final int friends_small=0x7f020009;
+        public static final int history=0x7f02000a;
+        public static final int history_small=0x7f02000b;
+        public static final int home_btn_bg=0x7f02000c;
+        public static final int home_btn_bg_d=0x7f02000d;
+        public static final int home_btn_bg_n=0x7f02000e;
+        public static final int home_btn_bg_s=0x7f02000f;
+        public static final int icon=0x7f020010;
+        public static final int list_background=0x7f020033;
+        public static final int loading=0x7f020011;
+        public static final int login=0x7f020012;
+        public static final int lowerround=0x7f020013;
+        public static final int ltgray=0x7f02002d;
+        public static final int ltyellow=0x7f02002e;
+        public static final int next=0x7f020014;
+        public static final int noround=0x7f020015;
+        public static final int play=0x7f020016;
+        public static final int preview=0x7f020017;
+        public static final int record=0x7f020018;
+        public static final int recording_logo=0x7f020019;
+        public static final int refresh=0x7f02001a;
+        public static final int round=0x7f02001b;
+        public static final int self=0x7f02001c;
+        public static final int settings=0x7f02001d;
+        public static final int settings_small=0x7f02001e;
+        public static final int share=0x7f02001f;
+        public static final int sina=0x7f020020;
+        public static final int sinaweibo_login=0x7f020021;
+        public static final int start=0x7f020022;
+        public static final int tencent=0x7f020023;
+        public static final int tencent_account=0x7f020024;
+        public static final int tencent_icon_big=0x7f020025;
+        public static final int tencent_icon_small=0x7f020026;
+        public static final int topbg=0x7f020027;
+        public static final int transparent=0x7f020030;
+        public static final int transparent_background=0x7f020032;
+        public static final int upperround=0x7f020028;
+        public static final int weibo_icon_big=0x7f020029;
+        public static final int weibo_icon_small=0x7f02002a;
+        public static final int weipai=0x7f02002b;
+        public static final int widget_edit_block_bg_normal=0x7f020031;
+        public static final int zhen=0x7f02002c;
     }
     public static final class id {
         public static final int camaraPreview=0x7f08000c;
@@ -106,17 +110,18 @@ containing a value of this type.
         public static final int leftButton=0x7f080006;
         public static final int mainContent=0x7f080009;
         public static final int main_radio=0x7f08000b;
-        public static final int play_button=0x7f080015;
-        public static final int previewDesc=0x7f080019;
-        public static final int previewFrom=0x7f080018;
-        public static final int previewImage=0x7f080016;
-        public static final int previewSocialInfo=0x7f08001a;
-        public static final int previewTitle=0x7f080017;
+        public static final int play_button=0x7f080016;
+        public static final int previewDesc=0x7f08001a;
+        public static final int previewFrom=0x7f080019;
+        public static final int previewImage=0x7f080017;
+        public static final int previewSocialInfo=0x7f08001b;
+        public static final int previewTitle=0x7f080018;
         public static final int publishSource=0x7f080013;
         public static final int record=0x7f080003;
         public static final int recordControlButton=0x7f08000d;
         public static final int rightButton=0x7f080008;
         public static final int settings=0x7f080004;
+        public static final int share_button=0x7f080015;
         public static final int titleBar=0x7f080005;
         public static final int toolBar=0x7f080000;
         public static final int topBarTitle=0x7f080007;
@@ -130,9 +135,10 @@ containing a value of this type.
         public static final int maintabs=0x7f030003;
         public static final int preview=0x7f030004;
         public static final int recording=0x7f030005;
-        public static final int share=0x7f030006;
-        public static final int topbar=0x7f030007;
-        public static final int videoitem=0x7f030008;
+        public static final int setting=0x7f030006;
+        public static final int share=0x7f030007;
+        public static final int topbar=0x7f030008;
+        public static final int videoitem=0x7f030009;
     }
     public static final class string {
         public static final int accountsetting=0x7f060007;
@@ -146,6 +152,7 @@ containing a value of this type.
         public static final int home_btn_setting=0x7f06000d;
         public static final int home_btn_updates=0x7f06000a;
         public static final int share=0x7f060008;
+        public static final int text_tellusmore=0x7f06000e;
         public static final int updates=0x7f060009;
         public static final int video_file_name_format=0x7f060004;
         public static final int video_reach_size_limit=0x7f060005;
@@ -155,6 +162,7 @@ containing a value of this type.
         public static final int main_tab_bottom=0x7f070000;
         public static final int main_tab_bottom_empty=0x7f070001;
         public static final int notitle=0x7f070003;
+        public static final int topbartext=0x7f070004;
     }
     public static final class styleable {
         /** Attributes that can be used with a topbar.

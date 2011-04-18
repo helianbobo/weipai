@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:wp="http://schemas.android.com/apk/res/com.weipai"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/titleBar"
+                  android:background="@drawable/topbg"
+                  android:layout_width="320dip" android:orientation="horizontal"
+                  android:layout_height="55dip" android:paddingTop="6.4dip"
+                  android:paddingBottom="2.4dip" android:paddingLeft="3.5dip" android:paddingRight="3.5dip"
+            >
+        <LinearLayout android:layout_width="95dip" android:layout_height="wrap_content" android:gravity="left">
+
+        </LinearLayout>
+        <TextView android:id="@+id/topBarTitle" style="@style/topbartext" android:text="@string/accountsetting"
+             />
+        <LinearLayout android:layout_width="95dip" android:layout_height="wrap_content" android:gravity="right">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/mainContent" android:background="@color/white" android:orientation="vertical"
+                  android:layout_width="fill_parent" android:paddingLeft="10dip" android:paddingRight="10dip"
+                  android:paddingTop="6dip"
+                  android:layout_height="530dip"
+            >
+
+        <LinearLayout android:layout_marginTop="20dip"
+                      android:layout_width="fill_parent" android:background="@drawable/round" android:padding="1dip"
+                      android:layout_height="91dip" android:orientation="vertical"
+                >
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="44dip" android:gravity="fill_horizontal"
+                          android:background="@drawable/upperround" android:paddingLeft="7dip"
+                          android:layout_marginBottom="1dip" android:orientation="horizontal">
+                <ImageView android:layout_gravity="center_vertical" android:layout_margin="3dip"
+                           android:src="@drawable/sina" android:layout_width="wrap_content"
+                           android:layout_height="wrap_content" android:adjustViewBounds="true"
+                           android:maxWidth="35dip"></ImageView>
+                <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content"
+                          android:layout_height="wrap_content" android:layout_marginLeft="10dip" android:text="新浪微博已登录"
+                          android:textColor="#010101" android:textSize="18dip"></TextView>
+
+                <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content"
+                          android:layout_height="wrap_content" android:text="注销" android:layout_marginLeft="20dp"
+                          android:textColor="@color/grayblue" android:textSize="18dip"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="fill_parent" android:background="@drawable/lowerround"
+                          android:layout_height="44dip"
+                          android:orientation="horizontal" android:paddingLeft="7dip">
+                <ImageView android:layout_gravity="center_vertical" android:layout_margin="3dip"
+                           android:src="@drawable/tencent" android:layout_width="wrap_content"
+                           android:layout_height="wrap_content" android:adjustViewBounds="true"
+                           android:maxWidth="35dip"></ImageView>
+                <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content"
+                          android:layout_height="wrap_content" android:layout_marginLeft="10dip" android:text="腾讯微博未绑定"
+                          android:textColor="#010101" android:textSize="18dip"></TextView>
+
+                <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content"
+                          android:layout_height="wrap_content" android:text="立即绑定" android:layout_marginLeft="20dp"
+                          android:textColor="@color/red" android:textSize="18dip"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView android:text="@string/text_tellusmore" android:layout_width="fill_parent" android:layout_height="45dp"
+                android:textSize="18dp" android:textColor="@color/grayblue" android:paddingLeft="10dp" android:paddingRight="10dp"
+                android:layout_marginTop="10dp"/>
+
+        <LinearLayout android:layout_marginTop="10dip"
+                      android:layout_width="fill_parent" android:background="@drawable/round" android:padding="1dip"
+                      android:layout_height="181dip" android:orientation="vertical"
+                >
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="44dip"
+                          android:background="@drawable/upperround" android:paddingLeft="7dip"
+                          android:layout_marginBottom="1dip" android:orientation="horizontal">
+
+                <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content"
+                          android:layout_height="wrap_content" android:layout_marginLeft="10dip" android:text="搜狐微博"
+                          android:textColor="#010101" android:textSize="18dip"></TextView>
+
+                <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"  android:text="我有！"  android:layout_marginLeft="120dp"
+                          android:textColor="@color/grayblue" android:textSize="18dip"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="fill_parent" android:background="@drawable/noround"
+                          android:layout_height="44dip"   android:layout_marginBottom="1dp"
+                          android:orientation="horizontal" android:paddingLeft="7dip">
+
+                <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content"
+                          android:layout_height="wrap_content" android:layout_marginLeft="10dip" android:text="网易微博"
+                          android:textColor="#010101" android:textSize="18dip"></TextView>
+
+                <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content"
+                          android:layout_height="wrap_content" android:layout_marginLeft="120dip" android:text="我有！"
+                          android:textColor="@color/grayblue" android:textSize="18dip"></TextView>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="fill_parent" android:background="@drawable/noround"
+                          android:layout_height="44dip"   android:layout_marginBottom="1dp"
+                          android:orientation="horizontal" android:paddingLeft="7dip">
+
+                <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content"
+                          android:layout_height="wrap_content" android:layout_marginLeft="10dip" android:text="开心网"
+                          android:textColor="#010101" android:textSize="18dip"></TextView>
+
+                <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content"
+                          android:layout_height="wrap_content" android:layout_marginLeft="140dip" android:text="我有！"
+                          android:textColor="@color/grayblue" android:textSize="18dip"></TextView>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="fill_parent" android:background="@drawable/lowerround"
+                          android:layout_height="44dip"
+                          android:orientation="horizontal" android:paddingLeft="7dip">
+
+                <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content"
+                          android:layout_height="wrap_content" android:layout_marginLeft="10dip" android:text="人人网"
+                          android:textColor="#010101" android:textSize="18dip"></TextView>
+
+                <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content"
+                          android:layout_height="wrap_content" android:layout_marginLeft="140dip" android:text="我有！"
+                          android:textColor="@color/grayblue" android:textSize="18dip"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <!--<include layout="@layout/bottombar"/>-->
+</LinearLayout>
