@@ -8,6 +8,7 @@ import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 
 public class BrowseActivity extends Activity
 {
@@ -18,6 +19,13 @@ public class BrowseActivity extends Activity
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.browser);
+
+        String topbarText = getIntent().getStringExtra("topbarText");
+        if(topbarText != null){
+            TextView textView = (TextView)findViewById(R.id.topBarTitle);
+            textView.setText(topbarText);
+        }
+
         ListView previewList = (ListView) this.findViewById(R.id.videoList);
         DetailInfo[] detailInfos = new DetailInfo[6];
 
